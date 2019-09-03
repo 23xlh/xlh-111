@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql:///day3</property>
+        <property name="user">root</property>
+        <property name="password"></property>
+        <property name="acquireIncrement">2</property>
+        <property name="initialPoolSize">5</property>
+        <property name="minPoolSize">1</property>
+        <property name="maxPoolSize">5</property>
+    </default-config>
+</c3p0-config>

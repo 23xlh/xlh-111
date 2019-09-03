@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>指示</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <form class="form-signin" action="/deleteServlet" method="post">
+        <div class="text-center">
+            <h2 class="form-signin-heading">指示页面</h2>
+        </div>
+
+        <label for="inputEmail" class="sr-only">删除第ID行</label>
+        <input type="text" id="inputEmail" name="username" class="form-control" placeholder="要删除的ID行" required
+               autofocus>
+
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> 记住
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">执行</button>
+    </form>
+
+</div>
+
+</body>
+</html>
